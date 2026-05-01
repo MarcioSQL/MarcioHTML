@@ -64,15 +64,18 @@
 </table>
 <h3>Cadastrar:</h3>
 <form onsubmit="alert('Mensagem enviada!!!')">
-  <label for="name">Nome:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="name">Idade:</label><br>
-  <input type="text" id="Idade" name="name"><br>
-  <label for="name">Cidade:</label><br>
-  <input type="text" id="Cidade" Cidade="name"><br>
 
-<button type="submit">Enviado!</button>
-</form><br>
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required><br>
+
+  <label for="idade">Idade:</label><br>
+  <input type="number" id="idade" name="idade" required><br>
+
+  <label for="cidade">Cidade:</label><br>
+  <input type="text" id="cidade" name="cidade" required><br>
+
+  <button type="submit">Enviado!</button>
+</form>
 
 <body>
 
